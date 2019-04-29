@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Abril+Fatface|Playfair+Display+SC:400,700,900|Asar|Old+Standard+TT:400,700");
+
+:root {
+	--light: #BFB8B8;
+	--light-alt: #7F7B7B;
+	--dark: #232323;
+	--dark-alt: #333333;
+}
+
+body {
+	background-color: #232323;
+	padding: 0px;
+	margin: 0px;
+}
+p {
+	padding: 0px;
+	margin: 0px;
+}
+.hidden {
+	display: none;
+}
+.content {
+	background-color: var(--light);
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	width: 90%;
+	min-height: 90%;
+	box-shadow: 4px 4px 0px var(--dark-alt);
+}
+#home, #about, #contact, #blog {
+	padding: 10px 50px;
+	width: 60%;
+}
+#hook {
+	font-family: Playfair Display;
+	font-weight: 900;
+	font-size: 120px;
+	color: var(--dark);
+	text-shadow: 3px 3px 0px var(--light-alt);
+	margin: 0px;
+	display: inline;
+}
+
+
+#tab-home {
+	position: absolute;
+	top: -3px;
+	right: -3px;
+	padding: 10px;
+	height: 30px;
+	width: 100px;
+
+	box-shadow: 3px 3px 0px var(--dark-alt);
+	background-color: var(--light-alt);
+	color: var(--dark);
+	font-family: Playfair Display;
+	font-weight: 400;
+	text-align: left;
+	font-size: 20px;
+
+	cursor: hand;
+	cursor: pointer;
+	
+}
+.tabs {
+	position: absolute;
+	height: 100%;
+	width: 30%;
+	top: 35%;
+	right: -3px;
+}
+.tab {
+	background-color: var(--light-alt);
+	padding: 2% 20px;
+	margin-top: 2%;
+	height: 6%;
+	
+	font-family: Playfair Display;
+	font-size: 25px;
+	text-align: left;
+	font-weight: 700;
+	color: var(--dark);
+
+	box-shadow: 3px 3px 0px var(--dark-alt);
+	
+	cursor: hand;
+	cursor: pointer;
+}
+.tab:active {
+	color: var(--dark-alt);
+}
+.hidden {
+	display: none;
+}
+.active-tab {
+	color: var(--dark-alt);
+}
+.heading-large {
+	font-family: Playfair Display SC;
+	font-size: 60px;
+	margin: 20px 0px;
+}
+.heading-medium {
+	font-family: Playfair Display SC;
+	font-size: 40px;
+	margin: 20px 0px;
+}
+.heading-small {
+	font-family: Abril Fatface;
+	margin: 30px;
+	margin-top: -5px;
+}
+.text-hook {
+	font-family: Old Standard TT;
+	font-weight: 300;
+	line-height: 2.0;
+}
+.text-tab {
+	margin-left: 30px;
+}
+
+label {
+	display: block;
+	margin: 20px 10px;
+	font-size: 18px;
+	font-family: Playfair Display;
+}
+input, textarea {
+	display: block;
+}
+.contact-form-input, input[type="submit"] {
+	border: none;
+	background-color: var(--light-alt);
+	box-shadow: 3px 3px 0px var(--dark-alt);
+	padding: 10px;
+	font-family: Old Standard TT;
+	font-size: 17px;
+	margin: 4px 0px;
+	/* color: var(--light); */
+}
+.contact-form-input:-moz-focusring, .contact-form-input:focus {
+	box-shadow: 3px 3px 0px var(--dark);
+}
